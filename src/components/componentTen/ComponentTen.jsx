@@ -37,11 +37,11 @@ const ComponentTen = () => {
   return (
       <div className='ten'>
           <div  className="button-group">
-          <button className='button-ten' onClick={onMinusClick}>*</button>
+          <button className='button-ten' onClick={onMinusClick}>-</button>
           <p>
               {count}
           </p>
-              <button className='button-ten' onClick={onPlusClick}>/</button>
+              <button className='button-ten' onClick={onPlusClick}>+</button>
               </div>
           <div>{showMessage()}</div>
 
