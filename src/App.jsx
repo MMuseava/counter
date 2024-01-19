@@ -1,6 +1,8 @@
+import AnimalDetails from "./components/animalDetails/AnimalDetails";
 import ComponentTen from "./components/componentTen/ComponentTen";
 import React, { useState } from "react";
 import "./App.css";
+import Popup from "./components/popup/Popup";
 
 function App() {
 	// const count = 0;
@@ -29,15 +31,17 @@ function App() {
 
 	return (
 		<div className="counter">
-			<div className="button-group">
+			{/* <div className="button-group">
 				<button onClick={onMinusClick}>-</button>
 				<p>{count}</p>
 				<button onClick={onPlusClick}>+</button>
 			</div>
 			<div>{showMessage()}</div>
-				<ComponentTen />
+				<ComponentTen /> */}
 			<div>
+				<AnimalDetails />
 				</div>
+			
 		</div>
 	);
 }

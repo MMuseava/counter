@@ -1,26 +1,4 @@
-/* .counter{
-  background-color: rgb(230, 209, 183);
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  align-items: center;
-}
-button{
-  width: 100px;
-  font-size: 40px;
-  color: tomato;
-  background-color: aqua;
-  border-radius: 5px;
-  border: 0.5px solid black;
-}
-button:hover{
-  cursor: pointer;
-  background-color: rgb(104, 104, 217);
-}
-p{
-  font-size: 40px;
-} */
+
 .counter {
   display: flex;
   flex-direction: column;
@@ -39,7 +17,7 @@ p{
 }
 
 button {
-  padding: 40px;
+  /* padding: 40px; */
   font-size: 18px;
   cursor: pointer;
   background-color: #4caf50;
